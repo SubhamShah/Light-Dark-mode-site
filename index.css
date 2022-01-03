@@ -1,5 +1,9 @@
+body{
+    background-color:var(--primary-color);
+}
 .navbar-nav{
     padding-left: 15%;
+  
 }
 .nav-item{
     margin: 0 20px;
@@ -20,6 +24,7 @@
 }
 .service{
     margin-top: 100px;
+    margin-left: 5px;
 }
 .service h3{
     text-align: center;
@@ -28,22 +33,23 @@
 .card{
     display: inline-block;
     margin:22px;
+    margin-top: 80px;
 }
 .cards{
   margin:10% 40%;
 }
 .team{
     margin-top: 100px;
-    background-color: black;
+    background-color: var(--secondary-color);
     height: 90vh;
 }
 .team h3{
-    color:white;
+    color:var(--primary-color);
     text-decoration: underline;
     text-align: center;
 }
 .team .card-text{
-    color: white;
+    color: var(--primary-color);
 }
 .card-body p{
     text-align: center;
@@ -54,6 +60,7 @@
 }
 .footer{
     margin-top: 100px;
+    height: 33vh;
 }
 .ft{
     display: inline-block;
@@ -61,8 +68,23 @@
     
 }
 .ft p{
-    color: white;
+    color:blue;
 }
 body{
     overflow-x: hidden;
 }
+#moonicon{
+    max-width: 330px;
+    max-height: 30px;
+    margin-right: 20px;
+    cursor:pointer;
+}
+:root{
+    --primary-color: whitesmoke;
+    --secondary-color: black; 
+}
+.darkmode{
+    --primary-color: black;
+    --secondary-color: whitesmoke; 
+}
+.dropdown:hover .dropdown-menu{display: block;}

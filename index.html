@@ -10,8 +10,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body>
+  
     <section class="home" id="h" style="position: fixed; z-index: 9999; width: 100%;">
-    <nav class="navbar navbar-expand-lg navbar-primary bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-primary" style="background-color: var(--primary-color);">
         <div class="container-fluid">
           <a class="navbar-brand" href="#cov">BIRAT</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +26,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="#ab">About Us</a>
               </li>
-              <li class="nav-item dropdown">
+              <l................3i class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#ser" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Services
                 </a>
@@ -35,7 +36,7 @@
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#ser">Training</a></li>
                 </ul>
-              </li>
+              </l................3i>
               <li class="nav-item">
                 <a class="nav-link" href="#tm">Team</a>
               </li>
@@ -46,6 +47,7 @@
                 <a class="nav-link" href="#con">Contact Us</a>
               </li>
             </ul>
+            <img src="moon.png" id="moonicon">
             <form class="d-flex">
               <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
@@ -57,13 +59,13 @@
     <section class="cover" id="cov">
         <img src="server.jpg.jpg">
     </section>
-    <section class="aboutus" id="ab">
+    <section class="aboutus" id="ab" style="color: var(--secondary-color);">
         <h3>About Us</h3>
         <p>We are prevelaged to bring our start up company first in Biratnagar.<br>We have high quality members with great professional skills.<br>We focus on our customers for all related services.</p>
         <img src="biratnagar.jpg">
       </section>
     <section class="service" id="ser">
-        <h3>Services</h3>
+        <h3 style="color: var(--secondary-color);">Services</h3>
         <div class="card" style="width: 18rem; margin-top: 30px;">
             <img src="design.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -77,7 +79,7 @@
             </div>
           </div>
           <div class="card" style="width: 18rem;">
-            <img src="shop.jpg" class="card-img-top" alt="...">
+            <img src="shop.jpg" class="card-img-top" alt="..." style="height: 190px;">
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
@@ -89,8 +91,8 @@
             </div>
           </div>
     </section>
-    <section class="team" id="tm">
-      <h3>Teams</h3>
+    <section class="team" id="tm" style="background-color: var(--primary-color);">
+      <h3 style="color: var(--secondary-color);">Teams</h3>
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             
             <div class="carousel-inner">
@@ -98,7 +100,7 @@
                 <div class="cards" style="width: 20rem;">
                   <img src="pp.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <p class="card-text">Er.Subham Shah<br>CEO<br>Web Developer.</p>
+                    <p class="card-text" style="color: var(--secondary-color);">Er.Subham Shah<br>CEO<br>Web Developer.</p>
                   </div>
                 </div>
                 <div class="carousel-caption d-none d-md-block">
@@ -109,7 +111,7 @@
                 <div class="cards" style="width: 20rem;">
                   <img src="sunil.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <p class="card-text">Er.Sunil Mahato<br>Graphic Designer.</p>
+                    <p class="card-text" style="color: var(--secondary-color);">Er.Sunil Mahato<br>Graphic Designer.</p>
                   </div>
                 </div>
                 <div class="carousel-caption d-none d-md-block">
@@ -119,7 +121,7 @@
                 <div class="cards" style="width: 20rem;">
                   <img src="ashish.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <p class="card-text">Er.Aashish Shrestha<br>Manager<br>Software Developer.</p>
+                    <p class="card-text" style="color:var(--secondary-color);">Er.Aashish Shrestha<br>Manager<br>Software Developer.</p>
                   </div>
                 </div>
                 <div class="carousel-caption d-none d-md-block">
@@ -130,7 +132,7 @@
                 <div class="cards" style="width: 20rem;">
                   <img src="vishal.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <p class="card-text">Er.Vishal Rouniyar<br>Relation Manager.</p>
+                    <p class="card-text" style="color: var(--secondary-color);">Er.Vishal Rouniyar<br>Relation Manager.</p>
                   </div>
                 </div>
                 <div class="carousel-caption d-none d-md-block">
@@ -149,11 +151,11 @@
           </div>
     </section>
     <section class="testi" id="tsi">
-      <h3 style="text-align: center;">Testimonals</h3>
+      <h3 style="text-align: center;color: var(--secondary-color);">Testimonals</h3>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card">
-            <img src="pp.jpg" class="card-img-top" alt="...">
+            <img src="pp.jpg" class="card-img-top" alt="..." style="height: 355px;">
             <div class="card-body">
               <h5 class="card-title" style="text-align: center;">Birat Group</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -174,14 +176,14 @@
             <img src="sunil.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title" style="text-align: center;">Mahato Ind.</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
           </div>
         </div>
         
       </div>
     </section>
-    <section class="contact" id="con" style="margin-top: 100px;">
+    <section class="contact" id="con" style="margin-top: 100px;color: var(--secondary-color);">
       <h3 style="text-align: center; text-decoration: underline;">Contact Us</h3>
       <form style="width: 50%; margin: auto auto; margin-top: 30px;">
         <div class="mb-3">
@@ -205,7 +207,7 @@
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
     </section>
-   <section class="footer" style="background-color: black;">
+   <section class="footer" style="background-color: var(--primary-color);">
        <div class="ft">
       <a style="text-decoration: none;" href="#ser"><p>Web Hosting</p></a>
       <a style="text-decoration: none;" href="#ser"><p>Web Development</p></a>
@@ -231,15 +233,28 @@
       <p>Look Up</p>
     </div>
     <div class="ft">
-      <h3 style="color: white;">
+      <h3 style="color:blue;">
         Birat Group Pvt.Ltd.
       </h3>
       <p>Traffic Chowk,Biratnagar-09</p>
       <p>Morang,44701,Nepal</p>
       <p>9842090401/9815343701</p>
     </div>
-    <p style="text-align: center;color: white; margin-top: 20px;text-size-adjust: 2px;">© Copyright 2021 Birat Group Pvt. Ltd., All Rights Reserved
+    <p style="text-align: center;color:  var(--primary-color); margin-top: 20px;text-size-adjust: 2px;">© Copyright 2021 Birat Group Pvt. Ltd., All Rights Reserved
       </p>
     </section>
+    <script>
+      var moonicon=document.getElementById("moonicon");
+      moonicon.onclick = function(){
+        document.body.classList.toggle("darkmode");
+        if( document.body.classList.contains("darkmode")){
+          moonicon.src="sun.png";
+        }else{
+          moonicon.src="moon.png";
+        }
+      }
+    </script>
+     
+
 </body>
 </html>
